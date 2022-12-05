@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(28, 25, 216);
+            font-family: sans-serif;
+            text-align: center;
+        }
+        form{
+            border: 2px solid red;
+            border-radius: 20px;
+            width: 400px;
+            margin-left: 450px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+
+    <form>
+        <div class="form_control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+        </div>
+        <div class="form_control">
+            <label for="email" id="label-email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email">
+
+        </div>
+
+        <div class="form_control">
+            <label for="role" id="label-role">Role</label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="others">Others</option>
+            </select>
+
+        </div>
+        <div class="form_control">
+        <label for="language">Language&Frameworks known
+        <small>(Check all that applies)</small><br>
+        <label for="inp_1">
+            <input type="checkbox" name="inp">C</input></label>
+        <label for="inp_2">
+            <input type="checkbox" name="inp">Java</input></label>
+        <label for="inp_3">
+            <input type="checkbox" name="inp">Python</input></label>
+        <label for="inp_4">
+            <input type="checkbox" name="inp">C++</input></label>
+
+
+        </div>
+
+        <input type="button" id="submit" value="Submit">
+
+
+
+
+    </form>
+
+</body>
+
+</html>

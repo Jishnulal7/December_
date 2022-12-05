@@ -1,0 +1,16 @@
+/* h1{
+    border: 1px solid tomato;
+    width: 100px;
+    color: aqua;
+}
+h2{
+    color: darkblue;
+} */
+.hello{
+    border: 1px solid tomato;
+    width: 100px;
+    color: aqua;
+}
+.hello h2{
+    color: red;
+}
