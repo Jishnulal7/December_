@@ -28,6 +28,15 @@
             margin-bottom: 12px;
         }
 
+        .sub-image {
+            width: 25px;
+            height: 25px;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
         .name {
             font-size: 18px;
             font-weight: bold;
@@ -39,7 +48,7 @@
             color: rgb(100, 100, 100);
             margin-left: 10px;
             margin-bottom: 12px;
-            
+
 
 
         }
@@ -58,29 +67,24 @@
             margin-bottom: 10px;
         }
 
-        .sub-image {
-            width: 25px;
-            height: 25px;
-            border-radius: 20px;
-            margin-left: 10px;
-            margin-bottom: 5px;
-            margin-top: 5px;
-        }
 
-        .pro-pic{
+
+        .pro-pic {
             display: grid;
             grid-template-columns: 200px 200px 200px;
             column-gap: 10px;
         }
-        .sub{
+
+        .sub {
             display: grid;
         }
-       
+
+      
     </style>
 </head>
 
 <body>
-    <div class="pro-pic">
+    <!-- <div class="pro-pic">
         <div class="content">
             <img class="profile-pic" src="cat.jpg" alt="cat">
             <p class="name">
@@ -133,13 +137,44 @@
                     4 mutual friends
                 </p>
             </div>
-            <div>
+            <div></div>
                 <button class="add-friend-button">
                     Add Friend
                 </button>
             </div>
         </div>   
-    </div>   
+    </div>    -->
+
+
+    <div class="pro-pic">
+        <div class="content">
+            <img class="profile-pic" src="cat.jpg" alt="cat">
+        </div>
+        
+            <p class="name">
+                Oliver
+            </p>
+       
+
+        <div class="profile-sub">
+            <img class="sub-image" src="dog2.jpg" alt="dog2">
+
+
+            <p class="mutual-friends">
+                2 mutual friends
+            </p>
+        </div>
+
+
+        <div class="button">
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+        </div>
+
+
+
+    </div>
 </body>
 
 </html>
