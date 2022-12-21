@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+}
+
+header {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+header .logo {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a .active {
+    background: black;
+    color: white;
+}
+
+/* .content {
+    background-image: url('grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: absolute;
+} */
+section {
+    position: relative;
+    width: 100vw; 
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    background-image: url('grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg');
+    background-size: cover;
+}
+
+#info {
+    color: white;
+    position: absolute;
+    font-size: 4.5vw;
+    white-space: nowrap;
+    margin-left: 40px;
+
+}
+
+#btn {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: white;
+    color: #2b1055;
+    display: inline-block;
+    font-size: 1.5em;
+    transform: translateY(75px);
+    margin-left: 160px;
+    
+}
+h3{
+    color: black;
+}
+.about-section{
+    margin-top: 50px ;
+    margin-left: 40px;
+
+}
+.about-details{
+    color: black;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    
+}
