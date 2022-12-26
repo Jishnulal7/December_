@@ -7,70 +7,77 @@
 
 body {
     background-color: white;
-    min-height: 100vh;
+    min-height: 200vh;  
 }
 
-header {
+.nav-bar {
     /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 10px;
+    padding: 40px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: .6s;
+    position: fixed;
+    background-color: white;
+    
 
 
 }
 
-header .logo {
+.nav-bar .logo {
     color: black;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     margin-left: 40px;
+    position: relative;
+    
 }
 
-header ul {
+.nav-bar ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-header ul li {
+.nav-bar ul li {
     list-style: none;
     margin-left: 20px;
+    position: relative;
+    
 }
 
-header ul li a {
+.nav-bar ul li a {
     text-decoration: none;
     padding: 6px 15px;
     color: black;
     border-radius: 20px;
+    position: relative;
+    
 }
 
-header ul li a:hover,
-header ul li a .active {
+.nav-bar ul li a:hover,
+.nav-bar ul li a .active {
     background: black;
     color: white;
 }
 
-/* .content {
-    background-image: url('grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg');
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    position: absolute;
-} */
-section {
+
+.content {
     position: relative;
-    width: 100vw; 
+    width: 100vw;
     height: 120vh;
     display: flex;
     align-items: center;
     background-image: url('grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg');
     background-size: cover;
+    z-index: 100000;
+    margin-top: 100px;
 }
 
 #info {
@@ -93,18 +100,26 @@ section {
     transform: translateY(75px);
     margin-left: 160px;
     
-}
-h3{
-    color: black;
-}
-.about-section{
-    margin-top: 50px ;
-    margin-left: 40px;
+    
 
 }
-.about-details{
+
+h3 {
+    color: black;
+}
+
+.about-section {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto  auto;
+    padding: 10px;
+}
+
+.about-details {
     color: black;
     display: grid;
-    grid-template-rows: 50px 50px;
-    
+    padding: 20px;
+    width: 100%;
+
 }
