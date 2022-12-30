@@ -1,0 +1,44 @@
+
+
+
+.content {
+  position: static;
+  width: 98.9vw;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  background-image: url('/images/grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl-dark-top-view_127032-1966.jpg');
+  background-size: cover;
+  z-index: 1;
+  margin-top: 25px;
+}
+
+#info {
+  color: white;
+  position: absolute;
+  font-size: 4.5vw;
+  white-space: nowrap;
+  margin-left: 4%;
+
+}
+
+#btn {
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 40px;
+  background: white;
+  color: #2b1055;
+  display: inline-block;
+  font-size: 1.5em;
+  transform: translateY(75px);
+  margin-left: 14%;
+}
+
+
+#seat-reserve {
+  background-image: url('/images/1-03704.jpg');
+  background-size:cover ;
+  padding-top: 50px;
+  margin-left: 50px;
+  
+}

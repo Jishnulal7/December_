@@ -1,0 +1,30 @@
+.about-section {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+  
+  .about-details {
+    color: black;
+    display: grid;
+    padding: 30px;
+    width: 80%;
+    column-gap: 10px;
+    text-align: justify;
+  }
+  
+  .about-row {
+    display: grid;
+
+  }
+  
+  .about-image1 {
+    width: 30%;
+  }
+  .about-image2 {
+    width: 30%;
+  }
+  
+  
