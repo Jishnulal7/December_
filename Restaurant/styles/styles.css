@@ -16,9 +16,10 @@
 #info {
   color: white;
   position: absolute;
-  font-size: 4.5vw;
+  font-size: 354.5%;
   white-space: nowrap;
-  margin-left: 4%;
+  margin-left: 5%;
+
 
 }
 
@@ -31,14 +32,97 @@
   display: inline-block;
   font-size: 1.5em;
   transform: translateY(75px);
-  margin-left: 14%;
+  margin-left: 9%;
 }
 
 
-#seat-reserve {
-  background-image: url('/images/1-03704.jpg');
-  background-size:cover ;
-  padding-top: 50px;
-  margin-left: 50px;
-  
+.seat-booking {
+  background-image: url('/images/FNC_OGImage_Taiwanese-Beef-Noodle-Soup.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+
+}
+h1{
+  margin-left: 90px;
+  /* text-align: center; */
+}
+form{
+  margin-left: 90px;
+  margin-bottom: 50px;
+  width:90.9vw;
+  height: 60vh;
+ 
+}
+label{
+  color: white;
+  margin-left: 10px;
+}
+#name,#email,#phone,#date{
+  height: 35px;
+  margin: 10px;
+  padding: 5px;
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid black;
+  color: white;
+}
+#name,#email,#phone,#date :hover{
+cursor: pointer;
+}
+::placeholder{
+  color: white;
+}
+#date{
+  color: white;
+  margin: 10px;
+}
+#date,#time,#seats:hover{
+  cursor: pointer;
+}
+#reserve{
+  margin-left: 15px;
+  height: 45px;
+  width: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+}
+#reserve:hover{
+  opacity: .5;
+}
+#contact{
+  margin-left: 40px;
+  display: inline-block;
+}
+div h2{
+margin-bottom: 15px;
+}
+/* div h2 p{
+  padding: 20px;
+} */
+.address{
+  line-height: 2;
+  margin:10px 10px;
+}
+.working-hour{
+  margin:10px 10px;
+}
+.telephone{
+  line-height: 2;
+  margin:10px 10px;
+}
+.map-image{
+  float:right;
+  z-index: 1;
+  display: block;
+  margin-right: 15px;
+}
+
+
+
+footer{
+  background-color: grey;
 }

@@ -22,19 +22,19 @@
   <link rel="stylesheet" href="/styles/about.css">
 </head>
 
-<div>
+<div class="main">
   <header class="nav-bar">
-    <a href="#" class="logo">Royal</a>
+    <a href="#" class="logo">Royal Palace</a>
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="menu.html">Menu</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </header>
 
   <section class="content">
-    <h2 id="info">Royal Restaurant</h2>
+    <h2 id="info">Royal Palace</h2>
     <a href="#seat-reserve" target="_parent" id="btn">Reserve a Table</a>
   </section>
 
@@ -93,25 +93,7 @@
   </div>
 </div>
 
-<div class="about-row">
-  <img class="about-image1" src="/images/45d99c1f0eff2b67e32ab2ed6f90d474.jpg" alt="food-image">
-  <h3>Lorem & Ipsum</h3>
-  <p class="about-description1">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-    nunc
-    urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-  <button class="about-button">More like</button>
-</div>
-
-<div class="about-row">
-  <img class="about-image2" src="/images/45d99c1f0eff2b67e32ab2ed6f90d474.jpg" alt="food-image">
-  <h3>Lorem & Ipsum</h3>
-  <p class="about-description2">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum,
-    nunc
-    urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-  <button class="about-button">More like</button>
-</div>
-
-<div id="seat-reserve">
+<div id="seat-reserve" class="seat-booking">
   <h1>Booking</h1>
   <form action="index.html" method="post">
 
@@ -122,9 +104,9 @@
     <input type="email" id="email" placeholder="Email"><br>
 
     <label for="date">Date</label><br>
-    <input type="date" id="date">
+    <input type="date" id="date"><br>
 
-    <label for="time">Time</label>
+    <label for="time">Time</label><br>
     <input type="time" id="date">
 
     <label for="seats">Seats</label>
@@ -136,15 +118,42 @@
     </select><br>
     <input type="checkbox">
     <label for="checkbox">Your consent to the processing of personal data</label><br>
-    <input type="button" value="Reserve a table">
-
+    <input type="button" id="reserve" onclick="alert('Completed')" value="Reserve a table">
   </form>
 </div>
-
-<div>
-
+<div id="contact">
+  <h2 class="contact-heading">
+    Contacts
+  </h2>
+  <p class="address">
+    <span class=""><strong>Address: </strong></span><br>
+    Vivekananda Nagar Main Rd, Vivekananda Nagar, Edapazhanji
+    <br>
+    Thiruvananthapuram <br>
+    kerala
+  </p>
+  <p class="working-hour">
+    <span><strong> Working hours:</strong>
+    </span><br>
+    Daily from 10.00 to 12.00
+  </p>
+  <p class="telephone">
+    <span ><strong>Telephone:</strong>
+    </span><br>
+    +9123456789 <br>
+    +9874664123 <br>
+  </p>
+  
 </div>
 
+  <img class="map-image" src="/images/Screenshot from 2023-01-02 00-53-29.png" alt="map-image">
+
+<hr>
+<footer class="">
+  <p>Royal</p>
+  <a class="footer-link" href="www.facbook.com">Facebook</a>
+  <a class="footer-link" href="www.instagram.com">Instagram</a>
+</footer>
 
 <script src="/script/index.js"></script>
 </body>

@@ -11,6 +11,7 @@ img {
     max-width: 1500px;
     position: static;
     margin: auto;
+    padding-bottom: 50px;
 }
 .slideImg{
     height: 750px;
@@ -54,6 +55,7 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    margin-bottom: 50px;
 }
 
 .active,
