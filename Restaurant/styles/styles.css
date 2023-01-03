@@ -41,10 +41,13 @@
 
 
 .seat-booking {
-  background-image: url('/images/FNC_OGImage_Taiwanese-Beef-Noodle-Soup.webp');
+  background-image: url('/images/black-food-cooking-background-stone-texture-with-sea-salt-pepper-garlic-parsley-abstract-food-background-empty-space-text-can-be-used-food-posters-design-menu-top-view_253362-16140.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   padding-top: 3rem;
+  height: 80vh;
+ 
 
 }
 h1{
@@ -68,7 +71,7 @@ label{
   padding: 5px;
   background-color: transparent;
   box-shadow: none;
-  border: 1px solid black;
+  border: 1px solid white;
   color: white;
 }
 #name,#email,#phone,#date :hover{
