@@ -1,0 +1,36 @@
+
+#contact{
+    margin-left: 40px;
+    display: inline-block;
+  }
+  div h2{
+  margin-bottom: 15px;
+  }
+  /* div h2 p{
+    padding: 20px;
+  } */
+  .address{
+    line-height: 2;
+    margin:10px 10px;
+  }
+  .working-hour{
+    margin:10px 10px;
+  }
+  .telephone{
+    line-height: 2;
+    margin:10px 10px;
+  }
+  div svg{
+    width: 1rem;
+    margin-left: 10px;
+  }
+  .map-image{
+    float:right;
+    z-index: 0;
+    display: block;
+    margin-right: 15px;
+    border-radius: 110px;
+    /* position: fixed; */
+    
+  }
+  

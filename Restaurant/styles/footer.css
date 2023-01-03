@@ -1,0 +1,35 @@
+
+.footer-main{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    margin: 0;
+  }
+  .left-footer{
+    font-weight: 700;
+    margin-left: 0rem;
+  }
+  .middle-footer{
+  line-height: .6;
+  
+  }
+  .middle-footer a{
+    text-decoration: none;
+  }
+  /* .middle-footer:active{
+    color: white;
+  } */
+  /* .right-footer{
+  
+  } */
+  .right-footer   
+  .footer-link{
+    width: 1rem;
+  }
+  svg:hover{
+    cursor: pointer;
+  }
+  

@@ -33,7 +33,6 @@ img {
     user-select: none;
 }
 
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -46,7 +45,8 @@ img {
 }
 
 .dot {
-    position: static;
+    position: relative;
+    bottom:25px;
     cursor: pointer;
     height: 10px;
     width: 10px;
@@ -55,7 +55,6 @@ img {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-    margin-bottom: 50px;
 }
 
 .active,
