@@ -26,3 +26,14 @@ h3 {
 h1 {
   color: white;
 }
+@media (max-width: 600px) {
+  /* apply styles for devices with a maximum width of 600px or smaller */
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  /* apply styles for devices with a width between 601px and 900px */
+}
+
+@media (min-width: 901px) {
+  /* apply styles for devices with a minimum width of 901px */
+}
